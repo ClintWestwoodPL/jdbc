@@ -19,8 +19,8 @@ public class Main {
       //  userDao.update(user);
        // userDao.delete(3);
 
-        List<User> users = userDao.findAll();
-        System.out.println(users);
+      //  List<User> users = userDao.findAll();
+        System.out.println(userDao.findById(1));
 
     }
 }
